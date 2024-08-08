@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<div id="form_checkbox">
+<fieldset>
+<legend> Select your dietary preferences:</legend>
+<label>
+<input type ="checkbox"name="preference"value=halal>
+Halal
+</label><br>
+<input type ="checkbox"name="preference"value=nut free>
+Nut Free
+</label><br>
+<input type ="checkbox"name="preference"value=gluten free>
+Gluten Free
+</label>
+</fieldset>
+</div>
+<div id="form_radio">
+<fieldset>
+<legend> Select your favorite cuisine:</legend>
+<label>
+<input type ="radio"name="preference"value=chinese>
+Chinese
+<label><br>
+<input type ="radio"name="preference"value=soul food>
+Soul Food
+<label><br>
+<input type ="radio"name="preference"value=italian>
+Italian
+</label></div>
+<form method="favorite_food">
+   Favorite Food :<input type="text"name="Favorite Food:"placeholder="Enter your favorite food">
+</form>
+</div>
+<div id="additional_notes">
+   <h3>Additional Notes:</h3>
+   <form>
+       <textarea name="additional_notes"placeholder="Add any specific dietary requirements or comments"></textarea>
+   </form>
+</div>
+<div id="meals_per_day">
+       <forms>
+           <label for="meals per day">Number of Meals Per Day</label>
+           <input type="number">
+       </forms>
+   </div>
+   <div id="favorite_dish">
+       <forms>
+           <label for="favorite_dish">Favorite Dish(Max 10 Characters)</label>
+           <input type="text" maxlength="10 characters">
+       </forms>
+   </div>
+   <div id="unavailable-food">
+       <forms>
+           <label for="unavailable-food">Unavailable Food Item</label>
+           <input type="text" placeholder="Out of Stock" disabled>
+       </forms>
+   </div>
+   <div id="read only information">
+       <forms>
+           <label for="read_only_info">Read Only Information</label>
+           <input type="text" placeholder="You can only read this" readonly>
+       </forms>
+   </div>
+   <div id="calorie_count">
+       <label for="calorie_count">Total Calories Consumed</label>
+          <input type="range" id="a" min="0" max="5000" value="2500">
+          <input type="number">Calories</input><br>
+       </forms>
+   </div>
+   <div id="beverage_type">
+       <forms>
+           <label for="drinks">Preferred Beverage</label>
+           <select name="drinks">
+               <option value="water">Water</option>
+               <option value="juice">Juice</option>
+               <option value="soda">Soda</option>
+               <option value="tea">Tea</option>
+               <option value="coffee">Coffee</option>
+
+
+
+
+</body>
+</html>
